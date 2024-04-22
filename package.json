@@ -8,10 +8,10 @@
     "validator"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bval.git",
-  "homepage": "https://github.com/bcoin-org/bval",
+  "repository": "git://github.com/raptoracle/bval.git",
+  "homepage": "https://github.com/raptoracle/bval",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bval/issues"
+    "url": "https://github.com/raptoracle/bval/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/bval.js",
@@ -20,10 +20,10 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "~0.0.10"
+    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13"
   },
   "devDependencies": {
-    "bmocha": "^2.1.0"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
   },
   "engines": {
     "node": ">=8.0.0"
